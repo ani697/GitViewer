@@ -1,0 +1,24 @@
+.MiddleSection{
+  padding-left: 40px;
+  padding-top: 12vh;
+  position: absolute;
+  color: #bfbfbf;
+}
+
+#person{
+  width: 70px;
+  height: 70px;
+}
+
+#text{
+  padding-left: 10px;
+  padding-top: 2px;
+  float: right;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#name{
+  color: #737373;
+  font-size: 25px;
+}

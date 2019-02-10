@@ -1,0 +1,64 @@
+.Head{
+  text-align: left;
+  float: left;
+    padding-left: 40px;
+}
+p{
+  margin: 0;
+  padding: 0;
+}
+#HeadText{
+/*  padding-left: 40px;*/
+  font-size: 15px;
+  color: #bfbfbf;
+}
+
+#Text{
+  /*padding-left: 40px;*/
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+}
+
+#WorkText{
+  /*padding-left: 40px;*/
+  font-size: 15px;
+  color: #bfbfbf;
+}
+#Work{
+  /*padding-left: 40px;*/
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+}
+
+
+#Followers{
+  float: right;
+  font-size: 15px;
+  color: #bfbfbf;
+
+}
+
+#Foll{
+  float: right;
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+  padding-right: 35px;
+}
+
+.link{
+  color:black;
+}
+
+#Block{
+  width:320px;
+  height: 60px;
+}
+
+@media (max-width:414px) {
+  .Head{
+      padding-left: 0;
+  }
+}

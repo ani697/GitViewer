@@ -1,0 +1,9 @@
+.TextLine{
+  float: right;
+  padding-top: 5px;
+  padding-right: 120px;
+  color: black;
+}
+#Header{
+  font-weight: bold;
+}

@@ -1,0 +1,36 @@
+.Header{
+  float: left;
+  margin-top:  5vh;
+  margin-left:  3vw;
+  font-size: 22px;
+  font-weight: bold;
+  color:#b3b3b3;
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+}
+
+li:nth-child(2){
+margin-top: 5px;
+}
+
+.flexcontainer{
+
+  list-style: none;
+  display: flex;
+}
+
+.flex-item{
+    flex-wrap: row wrap;
+}
+
+#Logo{
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+}
+
+@media (max-width:1200px) {
+  .Header{
+    margin-left:  1vw;
+  }
+}

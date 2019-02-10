@@ -1,0 +1,10 @@
+.TextLine{
+  position: absolute;
+  color:#a6a6a6;
+  padding-left: 50vh;
+  padding-top: 90vh;
+}
+
+@media (max-width:900px) {
+    padding-left:0;
+}

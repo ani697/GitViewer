@@ -1,0 +1,27 @@
+/*.FoundPage{
+  position: absolute;
+  width: 97vw;
+  height: 92vh;
+  margin: 10px;
+  background: #e6e6e6;
+}
+@media (max-width:700px ) {
+  .FoundPage{
+    margin: 5px;
+  }
+}*/
+.FoundPage{
+  position: absolute;
+  width: 95vw;   /*95*/
+  height: 80vh; /*95*/
+  margin: 2vh 15px 10px 25px;
+  background: #e6e6e6;
+}
+
+@media (max-width:576px ) {
+  .FoundPage{
+    width: 95vw;
+    height: 80vh;
+    margin: 2vh 2px 10px 13px;
+  }
+}

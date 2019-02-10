@@ -1,0 +1,33 @@
+.UserSection{
+  position: absolute;
+  margin-top: 5px;
+  margin-left:10px;
+  float: right;
+  color: #bfbfbf;
+}
+
+#name{
+  font-weight: bold;
+  color: black;
+}
+#description{
+  color:#a6a6a6;
+}
+
+@media (max-width:440px){
+  .UserSection{
+    position: absolute;
+    margin-top: 2px;
+    margin-left:5px;
+    float: right;
+    color: #bfbfbf;
+  }
+  #name{
+
+    font-weight: bold;
+    color: black;
+  }
+  #description{
+    color:#a6a6a6;
+  }
+}

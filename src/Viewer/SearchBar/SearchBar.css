@@ -1,0 +1,52 @@
+.SearchBar{
+  float: left;
+  margin-top: 15vh; /*9x */
+  margin-left: 6vw;
+  position: absolute;
+  width:300px;
+  height: 50px;
+  background-color: blue;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#TextX{
+  border-width: 0;
+  text-align:  left;
+  margin: 5px 15px 0 15px;
+  width:200px;
+  height: 40px;
+  color: white;
+  background-color: blue;
+}
+
+input::placeholder {
+  font-weight: bold;
+  color: white;
+}
+
+.SearchBar::after{
+  font-family: 'Font Awesome 5 Free';
+  content:"\f00d";
+  font-weight:900;
+}
+.SearchBar::before{
+  font-family: 'Font Awesome 5 Free';
+  content:"\f002";
+  font-weight:900;
+}
+@media (max-width:348px) {
+  .SearchBar{
+    margin-left: 0;
+    width:300px;
+  }
+  .SearchBar::after{
+    font-family: 'Font Awesome 5 Free';
+    content:"\f00d";
+    font-weight:900;
+  }
+  .SearchBar::before{
+    font-family: 'Font Awesome 5 Free';
+    content:"\f002";
+    font-weight:900;
+  }
+}

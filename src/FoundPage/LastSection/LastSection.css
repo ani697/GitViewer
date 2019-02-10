@@ -1,0 +1,22 @@
+.LastSection{
+  width: 100%;
+  height: 60vh;
+  position: absolute;
+  margin-top: 200px;
+  background-color: white;
+  text-align: right;
+}
+
+
+@media (max-width:417px) {
+  .LastSection{
+    height: auto;
+    column-count:1;
+  }
+
+}
+
+
+#Bio{
+  color: black;
+}

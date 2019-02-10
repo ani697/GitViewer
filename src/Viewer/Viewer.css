@@ -1,0 +1,15 @@
+.Viewer{
+  position: absolute;
+  width: 95vw;
+  height: 95vh;
+  margin: 10px 15px 10px 25px;
+  background: #e6e6e6;
+}
+
+@media (max-width:576px ) {
+  .Viewer{
+    width: 95vw;
+    height: 95vh;
+    margin: 10px 2px 10px 13px;
+  }
+}

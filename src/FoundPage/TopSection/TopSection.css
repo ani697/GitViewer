@@ -1,0 +1,40 @@
+.TopSection{
+  margin-left: 40px;
+  margin-top: 10px;
+  float: left;
+}
+
+
+#Return{
+  margin-right: 12px;
+  float: left;
+    width: 30px;
+    height: 30px;
+}
+
+#Return:hover{
+  cursor: pointer;
+}
+
+
+.link{
+  color:black;
+}
+.link:hover{
+  color:black;
+}
+
+/*@media (max-width:700px) {
+  .TopSection{
+    margin: 5px;
+  }
+}*/
+
+
+/*.TopSection::before{
+  margin: 10px;
+  font-family: 'Font Awesome 5 Free';
+  content:"\f3e5";
+  font-size: 15px;
+  font-weight:900;
+}*/
